@@ -1,0 +1,87 @@
+/* General Layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 900px;
+}
+
+/* Headings */
+h2, h5 {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Navbar/Header */
+header, .blog-header {
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Cards (Posts) */
+.card {
+  border: none;
+  border-left: 5px solid #0d6efd; /* Blue accent */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.card-title {
+  color: #0d6efd;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.btn-sm {
+  padding: 3px 12px;
+}
+.btn-outline-warning {
+  border-color: #ffc107;
+  color: #ff9800;
+}
+.btn-outline-warning:hover {
+  background: #ffc107;
+  color: #fff;
+}
+
+/* Forms */
+form .form-control {
+  border-radius: 8px;
+  box-shadow: none !important;
+}
+form .btn {
+  margin-top: 5px;
+}
+
+/* Search Bar */
+input[name="search"] {
+  border: 2px solid #0d6efd;
+}
+
+/* Pagination */
+.pagination .page-item.active .page-link {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+.pagination .page-link {
+  border-radius: 50px;
+  margin: 0 3px;
+}
+
+/* Footer (optional if you add one) */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  color: #6c757d;
+  font-size: 0.85rem;
+}

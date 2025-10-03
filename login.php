@@ -26,6 +26,7 @@ if(isset($_POST['login'])){
 <head>
 <title>Login</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 </head>
 <body class="bg-light">
 <div class="container my-5 p-4 bg-white rounded shadow-sm">
